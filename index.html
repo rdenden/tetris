@@ -1,8 +1,91 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8"/>
+    <title >
+      テトリス
+    </title>
+    <style>
+      .field{
+        width: 300px;
+        height: 600px;
+        background-color: black
+      }
+      .field .block{
+        width: 30px;
+        height: 30px;
+        /* 要素を横並びにする */
+        float: left;
+        border: solid 1px black;
+        /* 枠を含めたサイズに調整 */
+        box-sizing: border-box;
+      }
+      .field .block.empty{
+        background-color: gray;
+        b
+      }
+      .field .block.green{
+        background-color: green;
+      }
+      .field .block.white{
+        background-color: white;
+      }
+      .field .block.blue{
+        background-color: blue;
+      }
+      .field .block.pink{
+        background-color: pink;
+      }
+    </style>
+    
+
+    </script>
+  </head>
   <body>
+    <div class="field">
+      <div class="block empty">
+
+      </div>
+      <div class="block green">
+        
+      </div>
+      <div class="block white">
+        
+      </div>
+      <div class="block blue">
+        
+      </div>
+      <div class="block pink">
+        
+      </div>
+      <div class="block pink">
+        
+      </div>
+      <div class="block pink">
+        
+      </div>
+      <div class="block pink">
+        
+      </div>
+      <div class="block pink">
+        
+      </div>
+      <div class="block pink">
+        
+      </div>
+      <div class="block pink">
+        
+      </div>
+      <div class="block pink">
+        
+      </div>
+      <div class="block pink">
+        
+      </div>
+
+    </div>
     
     <canvas id = "can"></canvas>
-    <script src= "app.js"></script>
-  </body>
+    <!-- この記述でjQueryが使えるようになる -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  </body>
 </html>
